@@ -1,0 +1,45 @@
+.container{
+   
+    padding: auto;
+    display: flex;
+}
+.card{
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 500px;
+    box-shadow: 0 0  20px black;
+}
+.card-header{
+    background-color: rgb(12, 92, 65);
+    font-size: 20px;
+}
+.card-body{
+    background-color: cadetblue;
+}
+.btn{
+    width: 405px;
+    background-color: rgb(12, 92, 65);
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(14, 105, 75);
+}
+.Approve{
+    border: 3px solid rgb(14, 156, 14);
+}
+.notApprove{
+    border: 3px solid rgb(189, 21, 21);
+}
+.ApproveText{
+    color: rgb(14, 156, 14);
+}
+.notApproveText{
+   color: rgb(189, 21, 21);
+}
+/* .conform{
+    height: 200px;
+    width: 400px; 
+    background-color: blueviolet;
+    margin: auto;
+
+}        */

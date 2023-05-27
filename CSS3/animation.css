@@ -1,0 +1,53 @@
+body{
+    background-image: url("img/cartoonbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boy{
+float: left;
+animation-name: boi;
+position: relative;
+animation-duration: 10s;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+display: flex;
+}
+.boy .flower{
+    margin-left: 110px;
+    height: 200px;
+    width: 200px;
+   margin-top: 95px;
+   position: absolute;
+   animation-name: flow;
+   animation-delay: 5s;
+}
+@keyframes flow{
+    0%{
+       top: 0px;
+       left: 0px;
+      }
+       100%{
+        top: 0px;
+        left: 200px;
+        
+       }
+    }
+
+
+.girl{
+    float: right;
+    animation-name: gal;
+    transform:;
+    animation-delay: 15s;
+}
+@keyframes boi{
+0%{
+   top: 0px;
+   left: 0px;
+  }
+   100%{
+    top: 0px;
+    left: 1250px;
+    
+   }
+}

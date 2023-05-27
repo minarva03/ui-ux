@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            width: 50%;
+            margin: 0 auto;
+            background-color: black;
+            margin-top: 50px;
+        }
+        h1{
+            align-items: center;
+            text-align: center;
+        }
+        .container{
+             width: 360px;
+            
+        }
+        #inputField{
+            width: 300px;
+            height: 46px;
+            border-radius: 25px;
+            border: 1px solid black;
+            outline: none;
+            font-size: 16px;
+            vertical-align: middle;
+        }
+        #addToDo{
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            font-size: 25px;
+            vertical-align: middle;
+            border: 1px solid black;
+            background-color: chartreuse;
+        }
+        .to-dos{
+            margin-top: 25px;
+            color: rgb(250, 246, 246);
+            display: block;
+            /* border-bottom: 4px solid rgb(10, 9, 9); */
+            /* display: none; */
+    margin-bottom: 1.5rem;
+        }
+        .paragraph-styling{
+            margin: 0;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1 ><span style="color: chartreuse;"> TODO </span><span style="color: rgb(207, 238, 160);">List</span> </h1>
+    <div class="container">
+        <input type="text" id="inputField" placeholder="Right the things you want to do.."> <button id="addToDo">+</button>
+        <div class="to-dos" id="toDocontainer"></div>
+        
+    </div>
+    
+    <script src="TODO.js"></script>
+</body>
+</html>

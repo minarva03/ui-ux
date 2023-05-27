@@ -1,0 +1,67 @@
+let emailyBox = document.getElementById("emaily");
+let pastInp = document.getElementById("pastinp");
+let pestBtn = document.getElementById("pestbtn");
+let submityBtn = document.getElementById("submity");
+let copyInp = document.getElementById("copyinp");
+let copyBtn = document.getElementById("copybtn");
+let newPassword = document.getElementById("newpass");
+let newPassword2 = document.getElementById("newpass2");
+let forgetSub = document.getElementById('forgetsub')
+
+// display None
+pastInp.style.display = "none";
+pestBtn.style.display = "none";
+copyBtn.style.display = "none";
+copyInp.style.display = "none";
+newPassword.style.display = "none";
+newPassword2.style.display = "none";
+forgetSub.style.display='none'
+const val = Math.floor(1000 + Math.random() * 9000);
+
+copyInp.value = val;
+
+submityBtn.addEventListener("click", function () {
+  if (localStorage.getItem(emailyBox.value)) {
+    emailyBox.style.display = "none";
+    submityBtn.style.display = "none";
+    pestBtn.style.display = "block";
+    pastInp.style.display = "block";
+
+    setTimeout(() => {
+      copyBtn.style.display = "block";
+      copyInp.style.display = "block";
+    }, 2000);
+
+    copyBtn.addEventListener("click", function () {
+      copyInp.select();
+      document.execCommand("copy");
+    });
+
+    pestBtn.addEventListener("click", function () {
+      if (copyInp.value == pastInp.value) {
+        newPassword.style.display = "block";
+        newPassword2.style.display = "block";
+        pastInp.style.display = "none";
+        pestBtn.style.display = "none";
+        forgetSub.style.display='block'
+
+        forgetSub.addEventListener('click',function (){
+          if (newPassword.value == newPassword2.value){
+            localStorage.setItem(emailyBox.value,newPassword.value)
+            alert('ଆମ ୱେବସାଇଟ କୁ ଆପଣଙ୍କୁ ସ୍ୱାଗତ ଜଣାଉଛୁ ')
+          }else{
+            alert('ଭୁଲ  ଅଛି ଆଉଥରେ ଚେଷ୍ଟା କରନ୍ତୁ')
+          }
+        })
+
+      } else {
+        alert("ଆପଣଙ୍କ OTP ସଂଯୋଗ କରନ୍ତୁ ");
+      }
+    });
+  } else if(emailyBox.value) {
+    alert("ଆପଣ ପ୍ରବେଶ କରିଥିବା ଇମେଲ୍ କିମ୍ବା ମୋବାଇଲ୍ ନମ୍ବର ଏକ ଏକାଉଣ୍ଟ୍ ସହିତ ସଂଯୁକ୍ତ ନୁହେଁ  ");
+  }else{
+    alert
+    ('ଫୋରମ ଟି କୁ ଫିଲ-ଅପ କରନ୍ତୁ ')
+  }
+});

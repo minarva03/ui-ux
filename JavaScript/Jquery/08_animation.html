@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery class 3 </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        #div1{
+            background-color: rgb(70, 107, 34);
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn1">Button 1 </button>
+    <button id="btn2">Stop </button>
+    <br><br>
+    <div id="div1"></div>
+   <script>
+
+    // it will not work 
+    //    $('#btn1').click(function(){
+    //     $('#div1').hide(2000);
+    //     alert('Now my div is hideden');
+    //    });
+
+
+    // slove this problem by using callback function 
+    // $('#btn1').click(function(){
+    //    $('#div1').hide(2000,function(){
+    //     alert('div is hidden');
+    //    });
+    //    });
+
+
+        // method chaining 
+
+        // $('#btn1').click(function(){
+        //     $('#div1').css("background-color",'Teal').slideUp(2000);
+            
+        // });
+
+
+
+
+   </script>
+    
+</body>
+</html>

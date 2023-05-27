@@ -1,0 +1,171 @@
+
+.onbulb{
+    height: 100px;
+    width: 120px;
+    transform: rotate(180deg);
+    background-color: black;
+    background-blend-mode: multiply;
+  
+}
+
+#click{
+    position: absolute;
+    top: 567px;
+    
+}
+.onbulbclass{
+    animation-name: radhe;
+    animation-duration: 2s;
+}
+@keyframes radhe{
+0%{
+    position: absolute;
+    top: 0px;
+}100%{
+    position: absolute;
+    top: -132px;
+}
+}
+.bodyclass{
+    animation-name: radhe2;
+    animation-duration: 2s;
+   animation-fill-mode: forwards;
+  
+}
+@keyframes radhe2{
+    0%{
+      background-color: white;
+    }100%{
+     background-color: bisque;
+    }
+    }
+
+#titlediv{
+  
+    height: 40px;
+    
+    
+}
+#titlepara{
+    line-height: 40px;
+    color: white;
+    text-shadow: 4px 4px 5px silver;
+}
+#cake{
+    height: 69vh;
+    width: 57vw;
+    position: relative;
+    top: 86px;
+    animation-name: radhe3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 0px 27px 1px;
+    border-radius: 20px;
+}
+@keyframes radhe3{
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+}
+#titleimg{
+height: 15vh;
+width: 60vw;
+}
+body{
+   overflow: hidden;
+}
+#candle{
+    height: 24vh;
+    position: relative;
+    top: -315px;
+    left: 456px;
+    width: 15vh;
+    animation-name: radhe3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+
+}
+
+#candle2{
+    height: 24vh;
+    position: relative;
+    top: -459px;
+    left: 812px;
+    width: 15vh;
+    animation-name: radhe3;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+#fire{
+    position: absolute;
+    top: 133px;
+    height: 52px;
+    left: 489px;
+}
+
+
+#fire2{
+    position: absolute;
+    top: 142px;
+    left: 838px;
+    height: 56px;
+    width: 44px;}
+#ballon{
+    position: absolute;
+    top: 35px;
+    height: 83vh;
+    animation-name: radhe4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+#ballon2{
+    position: absolute;
+    top: 35px;
+    height: 83vh;
+    left: 26cm;
+    animation-name: radhe4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes radhe4 {
+    0%{
+        position: absolute;
+        top: 750px;
+    }
+    100%{
+        position: absolute;
+        top:35px;
+    }
+}
+#blast{
+    position: absolute;
+    top: 35px;
+    height: 83vh;
+    width: 60vh;
+}
+
+#blast2{
+    position: absolute;
+    top: 134px;
+    height: 83vh;
+    width: 60vh;
+    left: 139vh;
+}
+.rotatecake{
+    animation-name: radhe5;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes radhe5{
+    0%{
+        transform: rotateY(0deg);
+    }
+   100%{
+    transform: rotateY(180deg);
+    }
+}

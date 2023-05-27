@@ -1,0 +1,68 @@
+body{
+    /*background-image: url(img/doc4.jpg);*/
+    
+    
+}
+#about{
+ background-color:rgb(242, 248, 248);
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    background-image: url(img/doc3);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    text-align: center;
+    
+    
+}
+
+.c1{
+    padding: 100px;
+    background-color: rgba(4, 194, 105, 0.2);
+    color: rgb(250, 240, 240);
+    height: 400px;
+    margin-right: 80px;
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 150px;
+}
+.c1 img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -100px;
+}
+
+
+.order{
+    margin-left: -80px;
+    text-align:left;
+    font-size: 18px;
+    width: 350px;
+    font-style:unset;
+    font-weight: bold;
+    
+}
+.head{
+    color:rgb(26, 223, 213);
+    background-color;
+    width: 400px;
+    text-align:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.but{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    background-image: linear-gradient(#df6589ff,#3c1053ff);
+    font-size: large;
+}
+.but:hover{
+    background-image: linear-gradient(#5f4b8bff,#e69a8dff);
+}
+.c1:hover{
+    background-image: linear-gradient(#0063b2ff,#9cc3d5ff);
+}

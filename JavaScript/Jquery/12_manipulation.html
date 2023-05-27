@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery manipulation  </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+       .box{
+           width: 250px;
+           height: 250px;
+           border: 5px solid rgb(255, 47, 47);
+       }
+
+       .color{
+        background-color: rgb(106, 235, 20);
+       }
+      
+       
+    </style>
+</head>
+<body>
+    <div id="box" class="box color"></div>
+    <button id="btn">Click Me</button>
+   
+   <script>
+       $("#btn").click(function(){
+        $("#box").removeClass('color');
+        // $("#box").toggleClass('color');
+       });
+   </script>
+    
+</body>
+</html>

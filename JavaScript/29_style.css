@@ -1,0 +1,6 @@
+.bg-warning{
+    background-image: linear-gradient(45deg,limegreen,rgb(104, 93, 93));
+}
+.bg-danger{
+    background-image: linear-gradient(45deg,rgb(151, 151, 167),orange);
+}

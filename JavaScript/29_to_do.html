@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="29_style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+      <h3 class="text-center bg-dark text-white p-2">Task Managemnet</h3>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center bg-warning text-white">
+                      Add Task
+                    </div>
+                    <div class="card-body">
+                        <form action="" id="task-form">
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="task-data" aria-describedby="emailHelp" placeholder="Enter Task">
+                            </div>
+                            <button type="reset" class="btn btn-warning">Reset</button>
+                            <button type="submit" class="btn btn-info" id="task-submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center bg-danger text-white">
+                      Task List
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group" id="task-all-item">
+                            
+                        </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="29_app.js"></script>
+</body>
+</html>

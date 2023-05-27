@@ -1,0 +1,137 @@
+
+#rivdiv{
+    width: 100%;
+  overflow-x: hidden;
+
+}
+#rivimg{
+    height: 39vh;
+    width: 160vw;
+
+}
+.rivimgx{
+
+    animation-name: radhe;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#backimg{
+position: relative;
+    top: 9px;
+    height: 40vh;
+    width: 160vw;
+   
+}
+.backimgx{
+    animation-name: radhe;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes radhe {
+    0%{
+        transform: translateX(-2rem);
+    }100%{
+        transform: translateX(-47rem);
+    }
+   
+}
+
+#bote{
+    height: 1vh;
+    width: 5vw;
+
+  
+    height: 27vh;
+    width: 34vw;
+    position: relative;
+    left: 2.4cm;
+    top: -20rem;
+
+}
+.botex{
+    animation-name: radhe2;
+    animation-duration: 4s;
+      animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes radhe2 {
+    0%{
+        transform: rotate(-2deg);
+    }50%{
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: rotate(-2deg);
+        
+
+    }
+}
+
+#light{
+    position: absolute;
+    top: 12rem;
+    left: 20rem;
+    height: 17vh;
+    width: 38vw;
+    animation-name: radhe5;
+    animation-duration: 0.3s;
+      animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes radhe5 {
+    0%{
+        width: 0vw;
+    }
+    100%{
+       width: 38vw;
+    }
+}
+
+#bard{
+  
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    height: 17vh;
+    width: 14vw;
+    
+    animation-name: radhe3;
+    animation-duration: 7s;
+ 
+      animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes radhe3 {
+    0%{
+        transform: translateX(5rem);
+    }100%{
+        transform: translateX(-150rem);
+    }
+   
+}
+
+#control{
+   
+    width: 90vw;
+    display: block;
+    margin: auto;
+  
+    position: relative;
+    top: -15rem;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+
+    box-shadow: 0px 0px 30px 10px black;
+}
+
+.btn{
+    width: 10vh;
+    height: 10vh;
+}
+

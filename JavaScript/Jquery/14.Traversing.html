@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Traversing</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- I will selcet p (child) and apply style in parent -->
+    <div>
+    <ul id="list">
+        <li>
+            <p id="para">Hello</p>
+        </li>
+        <li>
+            <h5 id="heading">Hyy</h5>
+        </li>
+        <li id="test">
+            <h3 id="heading">Hyy</h5>
+        </li>
+        <li>
+            <h2 id="heading">Hyy</h5>
+        </li>
+        <li>
+            <h1 id="heading">Hyy</h5>
+        </li>
+    </ul>
+    </div>
+    <br>
+    <button id="btn">Clcik Me</button>
+    <script>
+
+        // parent()
+        // $('#btn').click(function(){
+        //    var x= $('#para').parent();
+        //    x.css('border','3px solid green');
+        // });
+
+        // parents()
+        // $('#btn').click(function(){
+        //    var x= $('#para').parents();
+        //    x.css('border','3px solid green');
+        // });
+
+        //parentsUnitill()
+        // $('#btn').click(function(){
+        //    var x= $('#para').parentsUntil('body');
+        //    x.css('border','3px solid green');
+        // });
+       
+
+        // children()
+        // selcet direct child 
+        // selcet child through parent
+        // $('#btn').click(function(){
+        //   var x=$('#list').children();
+        //   x.css('background-color','teal');
+        // });
+
+
+        // find()
+        // $('#btn').click(function(){
+        //   var x=$('#list').find("#test");
+        //   x.css('background-color','yellow');
+        // });
+
+            
+       
+    </script>
+</body>
+</html>

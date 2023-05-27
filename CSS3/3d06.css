@@ -1,0 +1,23 @@
+.pare{
+    position: relative;
+}.parent{
+    background-color: rgb(111, 166, 230);
+    height: 505px;
+    width: 330px;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -595px;
+    margin-left: 255px;
+}
+.child{
+position: absolute;
+margin-top: -660px;
+margin-left: 184px;
+transition: 1.5s;
+transform-origin:74%;
+}
+.child:hover{
+    transform: perspective(900px)rotateY(150deg);
+    
+}

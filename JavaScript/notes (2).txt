@@ -1,0 +1,157 @@
+Object :
+
+what is the problem with array ?
+Ans : we can store  a group of individula value it is not possible to sstore key value pair 
+
+//store student data
+//without object
+let studentName="Ritik";
+let studentAge=19;
+let studentCourse="Btech"
+let studentEmail="ritik@gmail.com;
+
+function eat(){
+      .....
+}
+
+
+// with object
+// objcet = properties(states) + methods (behv..)
+let student={
+      name:"Ritik",
+      age:19,
+      course:"Btech",
+      email:"ritik@gmail.com"
+
+      //function 
+};
+
+
+//what is the diff bet . and [] notation ?
+Ans : [] is basically used for Dynamic properties
+. is basically used for Static properties 
+
+
+
+-----------------------------------------------------------
+Date : 1-7-2021
+-----------------------------------------------------------
+
+How to print all keys and all values of an object using loop(for in loop)
+let student={
+      slno:01,
+      name:"Priyanka",
+      age:22,
+      course:'Btech'
+};
+
+
+what is the difference bet array and Objcet ?
+ans : 
+-Array can be represent individula value where as objcet can be used for key-value pairs 
+-order is maintained in array but it is not applibale in objcet 
+-In array we can access value by using index but in object we can access data using key 
+
+
+Nested object and Array :
+--------------------------
+
+
+--------------------------------------
+Date : 03-07-2021 ( 2 hr session )
+--------------------------------------
+Math Object 
+JSON
+
+Math objcet:
+------------
+Math calculation / Operation 
+PI 
+round()
+pow()
+sqrt()
+abs()
+ceil()
+floor()
+min()
+max()
+random()
+
+
+JSON : JAVASCRIPT OBJCET NOTATION :
+-------------------------------------
+stringify
+parse
+
+--------------------------------
+DOM : (Documnet Object Model)
+--------------------------------
+- DOM acts as a Interface between JS and HTML/CSS .
+- By using DOM , JS can access and manuplate (change/modify) all the elements of an HTML documnets .
+
+Documnet ---> Html Documnet
+Object   ---> ( in html tag --> elements) but in JS all html Elements called as Object
+Model --> Structure ( tree structure )
+
+
+- The HTML DOM model is constructured as tree of objcets 
+
+-->draw dig...
+
+what is DOM Manupulation ?
+Ans : The changes made to DOM area called as "DOM manupulation" .
+
+Note : The entire browser window is called as Window (objcet)
+
+
+JS DOM can do for us ?
+---------------------------
+1. change all HTML ELMENTS IN THE PAGE 
+2. change all HTML attribute IN THE PAGE 
+3. change all the css styles in the page 
+4. add and remove existing html and attribute 
+5. create new Html events in the web page 
+
+
+------------------------
+//tag selcet 
+html ---> h2 
+css ---> h2{}
+js --->documnet.querySelector('h2')
+JQuery ---> $('h2')
+
+//id select
+html ---> h2 
+css ---> h2{}
+js --->documnet.querySelector('#id1')
+JQuery ---> $('#id1')
+
+//class select
+html ---> h2 
+css ---> h2{}
+js --->documnet.querySelector('.class1')
+
+
+
+Events Handling :
+----------------
+Event ---> action 
+Handling--->manging 
+
+Different types of events that can occur :
+-----------------------------------------
+1. The user cliking the mouse over a certin elment or hovering cursor .
+2. the user pressing a key 
+3. resize or close browser 
+4. form submitting 
+5. video play , paused or 
+6. error occuring 
+
+
+Javascript Event Listteners:
+----------------------------
+fllow these steps :
+--------------------
+1 . selcet the html elemnet /tag
+2 . set an event on that html elemnt/tag 
+3 . write a function for event handling 

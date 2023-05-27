@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery class 2 </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+   <!-- <p>Hello</p>
+   <p>Hi</p> -->
+
+    <p>Click here otherwise move mouse pointer </p>
+
+    <script>
+
+        // mouse event
+        // $('p').click(function(){
+        //     $(this).hide();
+        // });
+
+        // $('p').dblclick(function(){
+        //     $(this).hide();
+        // });
+
+        // $('p').mouseenter(function(){
+        //     $(this).hide();
+        // });
+
+        // try other event
+
+
+        // apply multiple evenets using on() method 
+
+            $('p').on({
+                mouseenter:function(){
+                    $(this).css("background-color","red");
+            },
+
+                mouseleave:function(){
+                    $(this).css("background-color","green");
+                },
+
+                click:function(){
+                    $(this).css("background-color","yellow");
+                },
+
+            });
+
+
+    </script>
+</body>
+</html>

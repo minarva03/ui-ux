@@ -1,0 +1,98 @@
+body{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/574ddea83c44d82a049d018e/1559672225574-FAAWN7FQKYNHZL2VGV0M/ke17ZwdGBToddI8pDm48kAegX-1irUL6qWVp5YHdPlZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2MhtiLfXVvImLpDdoVYmcyh_AcJVOluizfCsxozWDxokZg/5J3A5981.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-blend-mode: color-burn;
+}
+.maid{
+    margin-top: 300px;
+    margin-left: 180px;
+    float: left;
+    position: relative;
+    animation-name: maid;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    transform:perspective(400px) translateZ(-360px);
+    
+    transition: 4s;
+    animation-duration: 12s;
+}
+@keyframes maid{
+    0%{
+       top: 0px;
+       left: 0px;
+      }
+     
+       100%{
+        transform:perspective(400px) translateZ(5px);
+        top: -250px;
+        left: 250px;
+        
+       }
+    }
+    
+    
+.bg{
+    color: #fdd004;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+}
+.para1{
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-left: 100px;
+  margin-top: ;
+}
+.para2{
+letter-spacing: 3;
+letter-spacing: 4px;
+font-size: 50px;
+margin-top: -80px;
+
+}
+.fish{
+    height: 70px;
+    width: 70px;
+    left: 500px;
+    top: 50px;
+    position: absolute;
+    transform: perspective(400px)rotate(30deg);
+    animation-iteration-count: infinite;
+    animation-delay: 6.5s;
+    animation-name:fis;
+    transition: 8s;
+    animation-duration: 10s;
+    
+}
+
+   
+
+@keyframes fis{
+    0%{
+       top: 50px;
+       left: 500px;
+      }
+     
+       40%{
+        
+        top:500px;
+        left: 1000px;
+        
+       }
+       70%{
+        transform: perspective(400px)rotate(0deg);
+           top: 500px;
+           left:1200px ;
+       }
+       100%{
+        transform: perspective(400px)rotate(0deg);
+        top: 0px;
+        left:1000px;
+       }
+    }

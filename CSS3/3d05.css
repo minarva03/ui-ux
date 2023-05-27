@@ -1,0 +1,39 @@
+.parent{
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 100px;
+    border: 2px solid black;
+    position:relative;
+}
+.child1{
+    position:absolute ;
+    margin-top: -300px;
+    margin-left: 305px;
+float: left;
+height: 185px;
+width: 200px;
+color: white;
+background-color: red;
+text-align: center;
+padding-top: 10px;
+font-size: 28px;
+}
+.child2{
+    
+    margin-top: -300px;
+    position:absolute;
+float: left;
+height: 185px;
+width: 200px;
+color: white;
+background-color: red;
+padding-top: 10px;
+text-align: center;
+margin-left: 95px;
+font-size: 28px;
+}
+.child1:hover{
+    transform: perspective(400px)rotateY(60deg);
+    transition: 0.5s;
+}

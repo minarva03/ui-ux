@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*hedaer start*/
+#header{
+    text-align: center;
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    height: 350px;
+    width: 100%;
+}
+#header a{
+    text-decoration: none;
+    color:white;
+}
+#headertable{
+    width: 100%;
+}
+
+#headertable img{
+    width: 300px;
+    border-radius: 25px;
+}
+
+#headertable td{
+    color:red;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*hedaer end*/
+#contnet{
+    margin-top: 200px;
+    height: 200px;
+    width: 100%;
+    background: #03001e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+    
+}
+#contenttable 
+{
+    width: 90%;
+    margin: auto;
+}
+
+#contenttable td{
+    background-color: rgb(7, 49, 9);
+    height: 100px;
+    color: #ffffff;
+    font-size: 23px;
+    border-radius: 20px;
+}
+
+#contenttable td:hover{
+   background-color: blue;
+   color:white;
+}
+
+/*content end*/
+
+
+/*about start*/
+
+#about
+{
+    text-align: center;
+    height: 400px;
+}
+
+#abouttable
+{
+    width: 90%;
+    margin:auto;
+}
+
+#about td
+{
+  width: 450px;
+}
+
+/*about end */
+
+
+/*footer start */
+#footer{
+background-color: #ec38bc;
+height: 300px;
+width: 100%;
+
+background: linear-gradient(to right, #6f0000, #200122); 
+}
+
+#footertable{
+    width: 93%;
+    margin: auto;
+    color:white;
+    text-align: center;
+}
+
+#footertable a{
+    font-size: 25px;
+    color:yellow;
+    text-decoration: none;
+    text-align: left;
+}
+
+#footertable a:hover{
+    
+    color:rgb(26, 88, 221);
+    
+}
+

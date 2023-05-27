@@ -1,0 +1,40 @@
+.bg-warning{
+    background-image: linear-gradient(45deg,rgb(104, 13, 63),rgb(236, 108, 226));
+    font-size: 20px;
+}
+.card-1{
+    border-radius: 20px 20px 20px;
+    background-color: rgb(185, 189, 189);
+}
+#task-data{
+    border: 3px solid black;
+    border-radius: 15px;
+    outline: none;
+}
+.list-group{
+    display: flex;
+    margin: 10px;
+   
+}
+button{
+    float: right;
+    align-items: center;
+    align-self: center;
+    display:inline-block;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+   outline: none;
+   border: none;
+}
+.btn1{
+    background-color: rgb(20, 122, 16);
+    margin-top: -20px;
+    
+}
+.btn2{
+    background-color: rgb(233, 53, 53);
+    margin-top: -35px;
+    margin-left: 180px;
+    
+}

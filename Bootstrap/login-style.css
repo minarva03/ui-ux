@@ -1,0 +1,119 @@
+/*.bluish{
+    background-color: blue;
+    text-align: inherit;
+}
+.btn-danger{
+       background-color: rgb(212, 64, 5);
+}
+.text-center{
+    text-align: center;
+    font-weight: bold;
+}
+.text-dark , .otp{
+     color: blue;
+    font-weight: bold;
+}
+.text-white{
+    color: blue;
+    font-weight: bold;
+    
+}
+.form-control{
+    display: block;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+@media (max-width:768px){
+    .container{
+        width: 500px;
+    }
+    .bluish{
+        width: 450px;
+    }
+    .card,  .mb-3{
+       width: 450px;
+    }
+    button{
+        width: 400px;
+    }
+    .image{
+        width: 320px;
+        text-align: center;
+    }
+}
+
+/* credit-card */
+
+/*.m-3,.bg-success{
+    background-image:linear-gradient(to right,  rgb(46, 150, 37)10%,rgb(7, 32, 7)50%) ;
+    border-radius: 20px;
+}
+.logo{
+    text-align: right;
+}
+.text-white{
+    font-family: monospace;
+    
+}
+span{
+    text-align: right;
+    margin-left: 120px;
+    font-style: italic;
+    font-size: 23px;
+   
+} */
+
+/* 3-cards */
+/*.bg-primary{
+    background-image: linear-gradient(rgb(58, 58, 245),rgb(110, 158, 247));
+    border-radius: 10px;
+} 
+
+/* ludo */
+.col-md-4{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.tri{
+    width: 0;
+    height: 0;
+    border: solid 44px;
+    padding-top: 10px;
+    margin-left: -13px;
+    margin-top: -6px;
+    border-color: transparent transparent rgb(180, 6, 6) transparent;
+}
+.tri-left{
+    width: 0;
+    height: 0;
+    border-top: 44px solid transparent;
+    border-bottom: 44px solid transparent;
+    border-right: 44px solid blue;
+    margin-top: -87px;
+    margin-left: 34px;
+}
+.tri-right{
+    width: 0;
+    height: 0;
+    border-top: solid  44px transparent;
+    border-bottom: 44px solid transparent;
+    border-left: 44px solid rgb(27, 160, 9);
+    margin-top: -88px;
+    margin-left: -17px;
+
+}
+.tri-down{
+    width: 0;
+    height: 0;
+    border-left: solid  48px transparent;
+    border-right: 48px solid transparent;
+    border-top: 48px solid yellow;
+    margin-top: -94px;
+    margin-left: -18px;
+}

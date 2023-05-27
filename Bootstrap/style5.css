@@ -1,0 +1,39 @@
+/* body{
+      background-color: rgb(224, 224, 46);
+}
+
+input{
+      margin-top:13px;
+      background-color: rgb(233, 226, 240)!important;
+}
+
+.container{
+      margin-top: 40px;
+      background-image: linear-gradient(45deg,rgb(38, 38, 56),rgb(26, 73, 160));
+      width: 40%;
+      padding: 20px;
+      color: aliceblue;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0px 20px rgb(238, 53, 6);
+} */
+/* 
+
+
+/* .btn-primary:hover{
+      background: linear-gradient(45deg,rgb(121, 121, 168),rgb(163, 15, 15));
+      
+} */ 
+
+.progress{
+      margin-top: 40px;
+      height: 25px;
+      box-shadow: 0 0 5px black;
+      border-radius: 20px;
+}
+
+
+.own{
+      background: linear-gradient(45deg,rgb(2, 2, 238),rgb(15, 14, 14));
+      
+}

@@ -1,0 +1,43 @@
+.parent{
+    height: 260px;
+    width: 260px;
+    background-color: azure;
+    border: solid rgb(60, 180, 49);
+    position: absolute;
+}
+.child{
+    height: 264px;
+    width: 264px;
+    background-color: rgb(156, 241, 87);
+    position: absolute;
+    
+    transition: 0.5s;
+
+}
+.parent2{
+    height: 260px;
+    width: 260px;
+    background-color: azure;
+    border: solid rgb(87, 10, 175);
+    position: absolute;
+    margin-left: 450px;
+}
+.child2{
+    height: 264px;
+    width: 264px;
+    background-color: rgb(159, 200, 238);
+    position: absolute;
+    
+    transition: 0.5s;
+    margin-left: 450px;
+}
+.all{
+    margin: 120px;
+    display: flex;
+}
+.child:hover{
+    transform: perspective(400px)rotateY(60deg);
+}
+.child2:hover{
+    transform: perspective(400px)rotateX(60deg);
+}
